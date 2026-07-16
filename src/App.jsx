@@ -23,7 +23,7 @@ import "./App.css";
 
 // The base URL for all fetch calls in this file.
 // Change this if your backend runs on a different port.
-const API_URL = "http://localhost:8080";
+const API_URL = import.meta.env.VITE_QUOTES_KEY;
 
 export default function App() {
   // ----------------------------------------------------------
